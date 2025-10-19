@@ -59,7 +59,7 @@ async def notion_webhook(request: Request):
         print("Raw body:", data)
 
     # Optional: send email notification
-    subject = f"Notion webhook triggered at {received_at}"
+    subject = f"HALLO KACPER HAT ES FUNKTIONIERT? unzwar: {received_at}"
     body = f"Webhook data:\n{data}"
     send_email(subject, body)
 
